@@ -31,7 +31,7 @@ So here are the steps.
     THIS FIRST STEP IS ESSENTIAL AND SHOULD NOT PROCEED FURTHER UNTIL THIS HAS BEEN COMPLETED!!!!
 
 2.  Next you will need a Nearbus account.
-    Go hear and set up an account.
+    Go here and set up an account.
     http://nearbus.net/index.php
     Click on Device List and select the HELLO WORLD example or go here:
     http://nearbus.net/wiki/index.php?title=App_Note_1218_-_Hello_World
