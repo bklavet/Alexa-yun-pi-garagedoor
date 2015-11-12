@@ -61,14 +61,18 @@ So here are the steps.
 
     Load sketch to YUN, and connect it to the internet.  Verify that device is in the UP state on the nearbus site.
     at this point open a window in your browser and enter this, but modified with your information 
+    
     "http://nearbus.net/v1/api_transp/NB101000?user=nearbus_logon_name&pass=nearbus_logon_password&method=POST&reg00=1"
+    
     notice the the last digit has been changed to a 1 make sure you do not forget that.
     
     Hit enter.  you should see the relay close for one second and then open.  Everytime this url is entered the relay should     respond by closing for one second and opening.
 
 6.  So if that URL is closing the relay, it is time to put that url into the raspberry pi.  log into the raspberry pi and        create a switch named "garage door" for the ON url place:
+
     "http://nearbus.net/v1/api_transp/NB101000?user=nearbus_logon_name&pass=nearbus_logon_password&method=POST&reg00=1"
-    notice the the last digit has been changed to a 1 make sure you do not forget that.
+   
+ notice the the last digit has been changed to a 1 make sure you do not forget that.
 
     for the Off url you can place the same url.  Save and load. 
     
