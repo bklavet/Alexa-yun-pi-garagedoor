@@ -43,7 +43,7 @@ So here are the steps.
     follow the Hello World example (http://nearbus.net/wiki/index.php?title=App_Note_1218_-_Hello_World)
     NOTE in the Hello World example you will download the nearbus lib and I could not get it to compile in the Arduino
     this is because the IDE did not like WProgram.h.  You will need to open the NearbusYun_v15.h file with an editor
-    (I use Notepad++)  If you use Notepad++ you can go to Search and select Replace.  the enter WProgram.h in the "Find What"     box and then Type Arduino.h in the "Replace with" box, and select replace and save.  Close out the Arduino IDE if you        have it open, and reopen the program again and it should now compile.
+    (I use Notepad++)  If you use Notepad++ you can go to Search and select Replace.  Then enter WProgram.h in the "Find         What" box and then Type Arduino.h in the "Replace with" box, and select replace and save.  Close out the Arduino IDE if      you have it open, and reopen the program again and it should now compile.
 
 4.  So if you made it this far you have a Raspberry pi that has sort of been sitting on the sideline for now, and an Arduino     Yun that has the Hello World example sketch running on it.
     
