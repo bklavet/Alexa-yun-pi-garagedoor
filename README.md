@@ -15,7 +15,7 @@ Alexa hears a command to "turn on the garage door".  The Echo sends this command
 The raspberry pi then fires of a url to Nearbus that turns on the Yun's Digital Pin 3 closing the relay that allows the garage door to open/close.
 
 Not so bad.
-So hear are the steps.
+So here are the steps.
 
 1.  Go here and set up the Raspberry Pi. 
     https://github.com/armzilla/amazon-echo-ha-bridge 
