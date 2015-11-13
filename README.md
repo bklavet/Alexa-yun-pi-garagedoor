@@ -87,9 +87,9 @@ So here are the steps.
 
 This was a great way to work with two technologies I don't know much about.  Raspberry pi, and Arduino.  This project could be modified to do many different things.*
 
-*Where do we go from here?  I would like to find a way to have Alexa read a twitter feed.  I think if it could, We could also have the Yun post it's current status to a twitter account. Allowing Alexa to respond to a door status question by reading the latest twitter post.  
+*So the next step is to figure out a way to have alexa check the status of the door.  It would be nice to be able to ask if the door is closed as of right now, I am not sure how this could be added.  I think it would have to come from the Arduino side of things, a sensor would be easy to add, but after that, I don't know
 
-IF anyone can add that to this that would be wonderful!
+IF anyone can add that to this... great!
 
     
     
