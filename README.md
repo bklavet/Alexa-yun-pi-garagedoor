@@ -1,6 +1,7 @@
 # Alexa-yun-pi-garagedoor
 This is a project that will allow you to control an arduino yun with Alexa.  In this project I am controlling a garage door.
-Noisey Youtube video of it in action.  https://www.youtube.com/watch?v=zzA2KRIv-9Q
+
+    Noisey Youtube video of it in action.  https://www.youtube.com/watch?v=zzA2KRIv-9Q
 
 
 Physical things that are needed to duplicate this project:
@@ -55,9 +56,9 @@ So here are the steps.
 5.  So now is the time to hook the YUN back up to the PC and open the arduino IDE for one more go. This is where you will        want to open my sketch and modify your information into it and load on to the YUN.  
     you will want to modify here:
     
-    * line 29 char deviceId []    = "Nearbus DEVICE ID"  to your device id that nearbus has assigned. put your device ID                                          between the ""
+    * line 29 char deviceId []    = "Nearbus DEVICE ID"  change to your device id that nearbus has assigned. put your device ID                                          between the ""
     * line 30 char sharedSecret[] = "Shared Secret"  This can be found in the Edit Devices tab on nearbus.  This is not your                                      PIN.  It is the 8 digit number in the Shared Secret space. 
-    * line 206 client.get ("http://nearbus.net/v1/api_transp/NB101000?user=nearbus_logon_name&pass=nearbus_logon_password&met                            hod=POST&reg00=0");
+    * line 206 client.get ("http://nearbus.net/v1/api_transp/NB101000?user=nearbus_logon_name&pass=nearbus_logon_password&method=POST&reg00=0");
     * You will want to place your nearbus device ID in place of NB101000, and put in your nearbus                                  login name and password.
 
     Load sketch to YUN, and connect it to the internet.  Verify that device is in the UP state on the nearbus site.
