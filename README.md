@@ -78,7 +78,7 @@ So here are the steps.
 
     for the Off url you can place the same url.  Save and load. 
     
-7.  Now you should be able to tell Alexa to turn ON/OFF the garage door, and this should cause the relay to close for one        second and open up.  wire the relay into your garage door button/doorbell/momentary switch.
+7.  Now you should be able to tell Alexa to turn ON/OFF open/close the garage door, and this should cause the relay to close for one second and open up.  wire the relay into your garage door button/doorbell/momentary switch.
 
 8.  enjoy!  
 
