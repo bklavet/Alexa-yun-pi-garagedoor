@@ -22,10 +22,6 @@ So here are the steps.
 1.  Go here and set up the Raspberry Pi. 
     https://github.com/armzilla/amazon-echo-ha-bridge 
 
-    I found a good walkthrough on how to set up a Pi with this software:
-    www.airedalez.net/?p=263
-    (the walkthrough is for an old version current version is 0.2.1 So just a heads up)
-
     Once this is on the Pi and the server is running on it.(Takes a couple minutes to get it going…)You can then access a gui             on it by logging into it by IP from another computer on the lan.
 
     From there, you can place the custom Url commands for the pi to pick up from Alexa and do stuff.
